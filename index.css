@@ -6,8 +6,8 @@ body {
 .container {
     background-color: ghostwhite; 
     font-family: sans-serif;
-    margin: 5px auto;
-    width: 1140px;
+    margin: auto;
+    max-width: 1140px;
     min-height: 100vh;
 }
 
@@ -103,8 +103,9 @@ img {
     border-color: orangered;
     border-width: 3px;
     align-items: center;
-    height: 500px;
-    width: auto;
+    height: auto;
+    width: 100%;
+    max-width: 500px;
     margin-top: 10px;
 }
 
@@ -112,6 +113,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .fav {
