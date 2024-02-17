@@ -151,7 +151,8 @@ button {
 .moon {
     height: 75px;
     width: 75px;
-    background-color: palegoldenrod;
+    background-color: #808080;
+    border-color: #808080;
     border-style: solid;
     border-radius: 50%;
     float: left; 
