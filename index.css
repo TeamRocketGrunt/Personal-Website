@@ -137,11 +137,11 @@ button {
 
 
 .rings {
-    height: 100px;
-    width: 100px;
+    height: 115px;
+    width: 114px;
     border-width: 4px;
     background-color: rgb(247, 96, 96);
-    border-color: orangered;
+    border-color: rgb(248, 53, 53);
     border-style: solid;
     border-radius: 50%;
     display: inline-flex;
