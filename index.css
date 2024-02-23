@@ -8,6 +8,12 @@ html {
     position: relative;
 }
 
+.skills {
+    left: 0px;
+    background-color: blue;
+    max-width: 570px;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1140px;
@@ -25,7 +31,7 @@ html {
     margin-right: 8%;
 }
 
-img {
+.img-me {
     border-radius: 50%;
     border-style: solid;
     border-color: orangered;
@@ -135,50 +141,6 @@ button {
     margin-bottom: 5px;
 }
 
-
-.rings {
-    height: 115px;
-    width: 114px;
-    border-width: 4px;
-    background-color: rgb(247, 96, 96);
-    border-color: rgb(248, 53, 53);
-    border-style: solid;
-    border-radius: 50%;
-    display: inline-flex;
-    margin-left: 20%
-}
-
-.moon {
-    height: 75px;
-    width: 75px;
-    background-color: #808080;
-    border-color: #808080;
-    border-style: solid;
-    border-radius: 50%;
-    float: left; 
-    margin-top: 10px;
-}
-
-.moon-right {
-    height: 75px;
-    width: 75px;
-    background-color: #808080;
-    border-color: #808080;
-    border-style: solid;
-    border-radius: 50%;
-    float: right;
-}
-
-.rings-right {
-    height: 100px;
-    width: 100px;
-    border-width: 3px;
-    border-color: red;
-    border-style: solid;
-    border-radius: 50%;
-    float: right;
-}
-
 footer {
     width:100%;
     margin: 0;
@@ -200,7 +162,7 @@ footer {
     .photo-heading h1 {
         margin-top: 20px;
     }
-    img {
+    .img-me {
         margin-left: auto;
         margin-right: auto;
         width: 50%;
@@ -215,3 +177,89 @@ footer {
         height: 20px;;
     }
 }
+
+/* Stars Below */
+
+
+@keyframes move-background {
+    from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  @-webkit-keyframes move-background {
+    from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  
+  @-moz-keyframes move-background {    
+      from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  
+      @-webkit-keyframes move-background {
+      from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  
+  .background-container{
+      position: fixed;
+      top: 0;
+      left:0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+  }
+  
+  .stars {
+   background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+   position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: block;
+        z-index: 0;
+  }
+  
+  .twinkling{
+      width:10000px;
+      height: 100%;
+      background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+      background-size: 1000px 1000px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 2;
+      
+      -moz-animation:move-background 70s linear infinite;
+    -ms-animation:move-background 70s linear infinite;
+    -o-animation:move-background 70s linear infinite;
+    -webkit-animation:move-background 70s linear infinite;
+    animation:move-background 70s linear infinite;
+      
+  }
+  
+  .img-moon{
+    height: 70vh;
+    width:70vh;
+    position: absolute;
+    z-index: 3;
+    right: 20px;
+  }
+  
