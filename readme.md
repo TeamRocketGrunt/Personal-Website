@@ -1,5 +1,5 @@
 Name: Avery Schuelke
-#### [See the live website](https://teamrocketgrunt.github.io/Personal-Website/contact.html)
+#### [See the live website](https://teamrocketgrunt.github.io/Personal-Website)
 
 [GitHub Account](https://github.com/TeamRocketGrunt)
 
