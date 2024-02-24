@@ -9,9 +9,9 @@ html {
 }
 
 .skills {
-    left: 0px;
-    background-color: blue;
-    max-width: 570px;
+    max-width: 1440px;
+    margin: 5% auto;
+    border-radius: 100px;
 }
 
 .container {
@@ -178,6 +178,12 @@ footer {
     }
 }
 
+
+.backing {
+    background-color: black;
+    opacity: .5;
+    z-index: -2;
+}
 /* Stars Below */
 
 
@@ -256,8 +262,8 @@ footer {
   }
   
   .img-moon{
-    height: 70vh;
-    width:70vh;
+    height: 50vh;
+    width:50vh;
     position: absolute;
     z-index: 3;
     right: 20px;
