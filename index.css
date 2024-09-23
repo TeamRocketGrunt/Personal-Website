@@ -19,6 +19,15 @@ html {
     max-width: 1140px;
     min-height: 100vh;
     margin-bottom: 30px;
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
 }
 
 .photo-heading {
@@ -183,6 +192,10 @@ footer {
     background-color: black;
     opacity: .5;
     z-index: -2;
+        margin: 0 auto;
+    max-width: 1140px;
+    min-height: 100vh;
+    margin-bottom: 30px;
 }
 /* Stars Below */
 
