@@ -281,5 +281,6 @@ footer {
     position: absolute;
     z-index: 3;
     right: 20px;
+    opacity: 75%;
   }
   
