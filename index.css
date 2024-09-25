@@ -153,6 +153,7 @@ button {
 footer {
     width:100%;
     margin: 0;
+    margin-top: auto;
     padding: 10px;
     bottom: 0;
     background-color: orangered;
